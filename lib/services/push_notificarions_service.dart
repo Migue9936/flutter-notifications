@@ -1,22 +1,4 @@
-//SHA1: EE:E1:A5:53:4C:63:D3:55:EF:67:14:71:D4:14:74:40:A8:9F:FB:E9
 
-
-
-// POST https://fcm.googleapis.com/v1/projects/myproject-b5ae1/messages:send HTTP/1.1
-
-// Content-Type: application/json
-// Authorization: Bearer ya29.ElqKBGN2Ri_Uz...HnS_uNreA
-
-// {
-//    "message":{
-//       "token":"token_1",
-//       "data":{},
-//       "notification":{
-//         "title":"FCM Message",
-//         "body":"This is an FCM notification message!",
-//       }
-//    }
-// }
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'dart:async';
